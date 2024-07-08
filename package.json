@@ -1,0 +1,20 @@
+{
+  "name": "the_acme_reservation_planner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "start:dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
